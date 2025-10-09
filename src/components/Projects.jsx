@@ -1,5 +1,7 @@
 import React from 'react';
 import './Projects.css';
+import PMSImage from '../assets/PMS.png';
+import TaxeaseImage from '../assets/Taxease.png';
 
 const Projects = () => {
   const projects = [
@@ -7,7 +9,7 @@ const Projects = () => {
       title: 'Prison management system',
       description: 'Full-Stack Web Application | Next.js 15, TypeScript, React 19 following IEEE 830-1998 SRS standards as an academic project.',
       technologies: ['Next.js', 'TypeScript', 'React','lucid react','tailwindcss'],
-      image: 'src/assets/PMS.png',
+      image: PMSImage,
       github: 'https://github.com/meltingsemicolon/PMS',
       demo: 'https://prisonmanagementsystem.vercel.app/'
     },
@@ -15,7 +17,7 @@ const Projects = () => {
       title: 'Tax ease Nepal',
       description: 'Developed during a hackathon Asianhack2025 with team name codeions designed to simplify Nepalese taxation processes.',
       technologies: ['React', 'vite'],
-      image: 'src/assets/Taxease.png  ',
+      image: TaxeaseImage,
       github: 'https://github.com/meltingsemicolon/Taxease',
       demo: 'https://taxease-six.vercel.app/'
     },
