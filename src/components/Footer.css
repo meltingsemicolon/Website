@@ -1,4 +1,5 @@
 .footer {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
   color: white;
   padding: 3rem 2rem 1rem;
 }
@@ -19,6 +20,8 @@
 .footer-section h4 {
   margin-bottom: 1rem;
   color: #ffd700;
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
 .footer-section p {
@@ -50,21 +53,59 @@
 }
 
 .footer-social {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
+  list-style: none !important;
+  list-style-type: none !important;
+  -webkit-padding-start: 0 !important;
+  -webkit-margin-before: 0 !important;
+  -webkit-margin-after: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 0.8rem;
+  visibility: visible !important;
+  opacity: 1 !important;
+  width: 100%;
+}
+
+.footer-social li {
+  list-style: none !important;
+  list-style-type: none !important;
+  -webkit-margin-start: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  display: block !important;
+  width: 100%;
+}
+
+.footer-social li::before,
+.footer-social li::marker {
+  content: none !important;
+  display: none !important;
 }
 
 .footer-social a {
-  color: white;
-  text-decoration: none;
-  opacity: 0.8;
+  color: white !important;
+  text-decoration: none !important;
+  font-size: 1rem;
+  font-weight: 500;
+  opacity: 0.9;
   transition: all 0.3s ease;
+  display: inline-block !important;
+  visibility: visible !important;
 }
 
 .footer-social a:hover {
   opacity: 1;
   color: #ffd700;
+  transform: translateX(5px);
+}
+
+.social-icon {
+  margin-right: 0.5rem;
+  font-size: 1.1rem;
 }
 
 .footer-bottom {

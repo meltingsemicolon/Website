@@ -25,22 +25,16 @@ const Footer = () => {
           
           <div className="footer-section">
             <h4>Connect</h4>
-            <div className="footer-social">
-              <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
-                GitHub
-              </a>
-              <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
-                LinkedIn
-              </a>
-              <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
-                Twitter
-              </a>
-            </div>
+            <ul className='footer-social'>
+              <li><a href="https://github.com/meltingsemicolon" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+              <li><a href="https://linkedin.com/in/shakayaabhishek" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+              <li><a href="https://www.instagram.com/abhishek.7z/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+            </ul>
           </div>
         </div>
         
         <div className="footer-bottom">
-          <p>&copy; {currentYear} Your Name. All rights reserved.</p>
+          <p>&copy; {2025} Abhishek shakya. All rights reserved.</p>
           <p>Built with React & ❤️</p>
         </div>
       </div>
