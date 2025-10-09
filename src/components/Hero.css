@@ -27,6 +27,29 @@
   background-clip: text;
 }
 
+.typewriter {
+  display: inline-block;
+  min-width: 300px;
+  text-align: left;
+}
+
+.cursor {
+  display: inline-block;
+  margin-left: 2px;
+  animation: blink 0.7s infinite;
+  color: #ffd700;
+  -webkit-text-fill-color: #ffd700;
+}
+
+@keyframes blink {
+  0%, 50% {
+    opacity: 1;
+  }
+  51%, 100% {
+    opacity: 0;
+  }
+}
+
 .hero-subtitle {
   font-size: clamp(1.2rem, 3vw, 1.8rem);
   margin-bottom: 1rem;
