@@ -91,7 +91,7 @@ const Contact = () => {
               <a href="https://github.com/meltingsemicolon" target="contained" rel="noopener noreferrer" className="social-link">
                 GitHub
               </a>
-              <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="social-link">
+              <a href="https://linkedin.com/in/shakyaabhishek" target="_blank" rel="noopener noreferrer" className="social-link">
                 LinkedIn
               </a>
             </div>
