@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import './Contact.css';
+import CV from '../assets/CV.pdf';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -93,6 +94,11 @@ const Contact = () => {
               </a>
               <a href="https://linkedin.com/in/shakyaabhishek" target="_blank" rel="noopener noreferrer" className="social-link">
                 LinkedIn
+              </a>
+            </div>
+            <div className="cv-section">
+              <a href={CV} target="_blank" rel="noopener noreferrer" className="cv-button">
+                📄 View CV
               </a>
             </div>
           </div>
