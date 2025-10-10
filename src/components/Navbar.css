@@ -47,7 +47,7 @@
 }
 
 .navbar.scrolled .nav-link {
-  color: #ffffff;
+  color: #000000;
 }
 
 .nav-link::after {
@@ -109,7 +109,7 @@
     top: 70px;
     left: -100%;
     flex-direction: column;
-    background: rgba(255, 255, 255, 0.98);
+    background: rgba(255, 255, 255, 1);
     width: 100%;
     padding: 2rem;
     gap: 1.5rem;
